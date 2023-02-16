@@ -14,7 +14,7 @@ export default function RootLayout({ children }: Props) {
   return (
     <html lang="en" className={archivo.className}>
       <head />
-      <body>
+      <body className="bg-gray-50">
         <Header />
         {children}
       </body>
