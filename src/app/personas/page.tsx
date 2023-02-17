@@ -3,8 +3,6 @@
 import React from "react";
 import {
   CheckIcon,
-  DotFiDotFilledIcon,
-  lledIconDotFilledIcon,
   InfoCircledIcon,
   DotFilledIcon,
 } from "@radix-ui/react-icons";
