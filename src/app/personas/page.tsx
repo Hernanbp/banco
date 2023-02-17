@@ -47,7 +47,7 @@ const page = () => {
               Bienvenido a la nueva bancalidad
             </p>
           </div>
-          <div className="relative h-full w-full border-4 border-red-600">
+          <div className="relative h-full w-full">
             <Image
               src="/Cel.svg"
               alt="cel"
