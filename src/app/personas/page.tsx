@@ -7,12 +7,13 @@ import {
   DotFilledIcon,
 } from "@radix-ui/react-icons";
 import Link from "next/link";
+import Image from "next/image";
 
 const page = () => {
   return (
     <>
       <div className="bg-gray-50">
-        <div className="mx-auto flex h-[700px] max-w-[1200px] flex-col justify-center">
+        <div className="mx-auto flex h-[700px] max-w-[1200px] items-center justify-between">
           <div className="max-w-[550px] lg:mt-24">
             <p className="font-semibold  text-lime-500">Dejá de pensarlo</p>
             <h2 className="text-[2.5rem] font-bold  leading-[120%]">
@@ -45,6 +46,17 @@ const page = () => {
             <p className="mt-6 font-semibold">
               Bienvenido a la nueva bancalidad
             </p>
+          </div>
+          <div className="relative h-full w-full">
+            <Image
+              src="/cel.svg"
+              alt="cel"
+              fill={true}
+              style={{
+                objectFit: "contain",
+                transform: "scale(.9) translateY(4rem) translateX(8rem)",
+              }}
+            />
           </div>
         </div>
       </div>
