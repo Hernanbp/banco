@@ -49,7 +49,7 @@ const page = () => {
           </div>
           <div className="relative h-full w-full border-4 border-red-600">
             <Image
-              src="/cel.svg"
+              src="/Cel.svg"
               alt="cel"
               fill={true}
               style={{
