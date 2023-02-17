@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Header = () => {
   return (
-    <div className="fixed top-0 left-0 flex h-16 w-full flex-col items-center border-b border-gray-200 bg-white   ">
+    <div className="fixed top-0 left-0 z-50 flex h-16 w-full flex-col items-center border-b border-gray-200 bg-white   ">
       <div className="mx-auto flex h-full w-full max-w-[1200px] items-center justify-between py-6">
         <Link href="/" className="text-2xl font-bold tracking-tighter">
           St. Patrick

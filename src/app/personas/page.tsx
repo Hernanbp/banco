@@ -82,7 +82,7 @@ const page = () => {
               Más información
             </p>
           </div>
-          <div className="flex h-[500px] w-[360px] flex-col items-center justify-center rounded-md border bg-white p-6 text-center drop-shadow-sm">
+          <div className="flex h-[500px] w-[360px] flex-col  items-center justify-center rounded-md border bg-white p-6 text-center drop-shadow-sm">
             <h2 className="text-3xl font-bold">
               Cobrá tu sueldo en St. Patrick
             </h2>
@@ -111,7 +111,7 @@ const page = () => {
               Acreditá tus ventas con tarjetas de crédito y débito en una cuenta
               corriente en BBVA y tené beneficios para vos y tus clientes.
             </p>
-            <button className="mt-10 rounded-full border bg-lime-500 py-3 px-6 font-medium">
+            <button className="mt-24 rounded-full border bg-lime-500 py-3 px-6 font-medium">
               Adherite
             </button>
             <p className="mt-10 flex items-center gap-2 font-semibold">
@@ -119,6 +119,22 @@ const page = () => {
               Más información
             </p>
           </div>
+        </div>
+      </div>
+      <div className="border-t border-gray-200 bg-white">
+        <div className="mx-auto flex h-40 max-w-[1200px] items-center justify-between">
+          <div>
+            <h2 className="text-2xl font-semibold">
+              Venite a St. Patrick y disfrutá todo lo que tenemos para vos
+            </h2>
+            <p>
+              Tenemos soluciones financieras, beneficios y productos que se
+              adaptan a tus necesidades.
+            </p>
+          </div>
+          <button className="rounded-full bg-lime-500 py-4 px-8 font-semibold">
+            Hacete cliente
+          </button>
         </div>
       </div>
     </>
