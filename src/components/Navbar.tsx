@@ -3,7 +3,7 @@ import { ChevronRightIcon } from "@radix-ui/react-icons";
 import Image from "next/image";
 import Link from "next/link";
 
-const Header = () => {
+const Navbar = () => {
   return (
     <div className="fixed top-0 left-0 z-50 flex h-16 w-full flex-col items-center border-b border-gray-200 bg-white   ">
       <div className="mx-auto flex h-full w-full max-w-[1200px] items-center justify-between py-6">
@@ -64,4 +64,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Navbar;
