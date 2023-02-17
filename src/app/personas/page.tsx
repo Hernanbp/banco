@@ -1,7 +1,14 @@
 "use client";
 
 import React from "react";
-import { CheckIcon, DashIcon, InfoCircledIcon } from "@radix-ui/react-icons";
+import {
+  CheckIcon,
+  DotFiDotFilledIcon,
+  lledIconDotFilledIcon,
+  InfoCircledIcon,
+  DotFilledIcon,
+} from "@radix-ui/react-icons";
+import Link from "next/link";
 
 const page = () => {
   return (
@@ -27,9 +34,11 @@ const page = () => {
                 Disfrutá descuentos en Go de St. Patrick, pagá con MODO y más
               </li>
             </ul>
-            <button className="mt-10 rounded-full bg-lime-500 py-4 px-8 font-semibold">
-              Quiero ser cliente
-            </button>
+            <Link href="/personas/registro">
+              <button className="mt-10 rounded-full bg-lime-500 py-4 px-8 font-semibold">
+                Quiero ser cliente
+              </button>
+            </Link>
             <p className="mt-6 font-semibold">
               Bienvenido a la nueva bancalidad
             </p>
@@ -46,17 +55,17 @@ const page = () => {
           </h3>
           <ul className="mt-2 flex flex-col gap-4">
             <li className="flex items-center">
-              <DashIcon />
+              <DotFilledIcon />
               Ponemos a tu alcance productos desarrollados pensando en tus
               necesidades
             </li>
             <li className="flex items-center">
-              <DashIcon />
+              <DotFilledIcon />
               Siempre estamos cerca de vos con nuestra red de cajeros y
               sucursales
             </li>
             <li className="flex items-center">
-              <DashIcon />
+              <DotFilledIcon />
               Tenés todos los canales digitales para operar desde la
               tranquilidad de tu hogar, contando con atención personalizada
             </li>
@@ -65,7 +74,7 @@ const page = () => {
       </div>
       <div className="bg-gray-50">
         <div className="mx-auto flex h-[40rem] max-w-[1200px] items-center justify-between">
-          <div className="flex h-[500px] w-[360px] flex-col items-center justify-center rounded-md border bg-white p-8 text-center drop-shadow-sm">
+          <div className="flex h-[500px] w-[360px] flex-col items-center justify-center rounded-xl border bg-white p-8 text-center drop-shadow-sm">
             <h2 className="text-3xl font-bold">Sacá tu tarjeta de crédito</h2>
             <h3 className="mt-2 text-base font-semibold">
               Sacá tu tarjeta de crédito gratis por 1 año
@@ -82,7 +91,7 @@ const page = () => {
               Más información
             </p>
           </div>
-          <div className="flex h-[500px] w-[360px] flex-col  items-center justify-center rounded-md border bg-white p-6 text-center drop-shadow-sm">
+          <div className="flex h-[500px] w-[360px] flex-col  items-center justify-center rounded-xl border bg-white p-6 text-center drop-shadow-sm">
             <h2 className="text-3xl font-bold">
               Cobrá tu sueldo en St. Patrick
             </h2>
@@ -102,16 +111,16 @@ const page = () => {
               Mas informacion
             </p>
           </div>
-          <div className="flex h-[500px] w-[360px] flex-col items-center justify-center rounded-md border bg-white p-6 text-center drop-shadow-sm">
+          <div className="flex h-[500px] w-[360px] flex-col items-center justify-center rounded-xl border bg-white p-6 text-center drop-shadow-sm">
             <h2 className="text-3xl font-bold">Acreditá tus ventas</h2>
-            <h3 className="mt-2 text-base font-semibold">
+            <h3 className="mt-[4.25rem] text-base font-semibold">
               Te apoyamos con tu comercio
             </h3>
             <p className="mt-5">
               Acreditá tus ventas con tarjetas de crédito y débito en una cuenta
               corriente en BBVA y tené beneficios para vos y tus clientes.
             </p>
-            <button className="mt-24 rounded-full border bg-lime-500 py-3 px-6 font-medium">
+            <button className="mt-10 rounded-full border bg-lime-500 py-3 px-6 font-medium">
               Adherite
             </button>
             <p className="mt-10 flex items-center gap-2 font-semibold">

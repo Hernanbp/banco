@@ -1,6 +1,6 @@
 import { Archivo } from "@next/font/google";
 import Footer from "../components/Footer";
-import Header from "../components/header";
+import Header from "../components/Header";
 
 import "../styles/globals.css";
 
