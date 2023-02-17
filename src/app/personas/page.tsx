@@ -33,7 +33,12 @@ const page = () => {
               </li>
             </ul>
             <Link href="/personas/registro">
-              <button className="mt-10 rounded-full bg-lime-500 py-4 px-8 font-semibold">
+              <button
+                className="group relative mt-10  overflow-hidden
+            rounded-full bg-lime-500 py-4 
+            px-8 font-semibold transition-all duration-200 ease-linear hover:bg-lime-400"
+              >
+                <div className="absolute h-[500px] w-[200px] -translate-x-96 -translate-y-40 rotate-45 bg-lime-500 transition-all duration-[.8s] ease-[cubic-bezier(0.65,0,.076,1)] group-hover:translate-x-60"></div>
                 Quiero ser cliente
               </button>
             </Link>
@@ -72,7 +77,7 @@ const page = () => {
       </div>
       <div className="bg-gray-50">
         <div className="mx-auto flex h-[40rem] max-w-[1200px] items-center justify-between">
-          <div className="flex h-[500px] w-[360px] flex-col items-center justify-center rounded-xl border bg-white p-8 text-center drop-shadow-sm">
+          <div className="flex h-[500px] w-[360px]  flex-col items-center justify-center rounded-xl border bg-white p-8 text-center drop-shadow-sm">
             <h2 className="text-3xl font-bold">Sacá tu tarjeta de crédito</h2>
             <h3 className="mt-2 text-base font-semibold">
               Sacá tu tarjeta de crédito gratis por 1 año
@@ -81,7 +86,12 @@ const page = () => {
               Pedila en 5 minutos, accedé a descuentos en viajes, preventas,
               indumentaria y mucho más.
             </p>
-            <button className="mt-10 rounded-full border bg-lime-500 py-3 px-6 font-medium">
+            <button
+              className="group relative mt-10  overflow-hidden
+            rounded-full bg-lime-500 py-4 
+            px-8 font-semibold transition-all duration-200 ease-linear hover:bg-lime-400"
+            >
+              <div className="absolute h-[500px] w-[200px] -translate-x-96 -translate-y-40 rotate-45 bg-lime-500 transition-all duration-[.8s] ease-[cubic-bezier(0.65,0,.076,1)] group-hover:translate-x-60"></div>
               Solicitá tu tarjeta
             </button>
             <p className="mt-10 flex items-center gap-2 font-semibold">
@@ -101,7 +111,12 @@ const page = () => {
               Disfrutá de tu cuenta 100% bonificada, tasas exclusivas en
               préstamos personales y descuentos en seguros.
             </p>
-            <button className="mt-10 rounded-full border bg-lime-500 py-3 px-6 font-medium">
+            <button
+              className="group relative mt-10  overflow-hidden
+            rounded-full bg-lime-500 py-4 
+            px-8 font-semibold transition-all duration-200 ease-linear hover:bg-lime-400"
+            >
+              <div className="absolute h-[500px] w-[200px] -translate-x-96 -translate-y-40 rotate-45 bg-lime-500 transition-all duration-[.8s] ease-[cubic-bezier(0.65,0,.076,1)] group-hover:translate-x-60"></div>
               Solicitá tu tarjeta
             </button>
             <p className="mt-10 flex items-center gap-2 font-semibold">
@@ -118,7 +133,12 @@ const page = () => {
               Acreditá tus ventas con tarjetas de crédito y débito en una cuenta
               corriente en BBVA y tené beneficios para vos y tus clientes.
             </p>
-            <button className="mt-10 rounded-full border bg-lime-500 py-3 px-6 font-medium">
+            <button
+              className="group relative mt-10  overflow-hidden
+            rounded-full bg-lime-500 py-4 
+            px-8 font-semibold transition-all duration-200 ease-linear hover:bg-lime-400"
+            >
+              <div className="absolute h-[500px] w-[200px] -translate-x-96 -translate-y-40 rotate-45 bg-lime-500 transition-all duration-[.8s] ease-[cubic-bezier(0.65,0,.076,1)] group-hover:translate-x-60"></div>
               Adherite
             </button>
             <p className="mt-10 flex items-center gap-2 font-semibold">
@@ -139,7 +159,12 @@ const page = () => {
               adaptan a tus necesidades.
             </p>
           </div>
-          <button className="rounded-full bg-lime-500 py-4 px-8 font-semibold">
+          <button
+            className="group relative  overflow-hidden
+            rounded-full bg-lime-500 py-4 
+            px-8 font-semibold transition-all duration-200 ease-linear hover:bg-lime-400"
+          >
+            <div className="absolute h-[500px] w-[200px] -translate-x-96 -translate-y-40 rotate-45 bg-lime-500 transition-all duration-[.8s] ease-[cubic-bezier(0.65,0,.076,1)] group-hover:translate-x-60"></div>
             Hacete cliente
           </button>
         </div>
